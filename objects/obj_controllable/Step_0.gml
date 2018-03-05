@@ -11,6 +11,7 @@ if(inControl){
 	obj_monk.x = x;
 	obj_monk.y = y;
 }
+else{hsp = 0}
 vsp = vsp + grav;
 
 //horizonal

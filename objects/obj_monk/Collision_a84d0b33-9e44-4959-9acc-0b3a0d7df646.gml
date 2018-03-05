@@ -1,6 +1,6 @@
 /// @description Handles capture when in range
 // You can write your code in this editor
-if(keyboard_check(vk_space))
+if(keyboard_check(vk_space)and inControl)
 {
 	inControl = false;
 	currentControl = other;
