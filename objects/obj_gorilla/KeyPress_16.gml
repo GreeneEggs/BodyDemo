@@ -1,20 +1,23 @@
 /// @description Handles Gorrilla Breaking and lifting stuff
-// You can write your code in this editor
 
 
 //Handles Breaking Block
-//left side
+//right side
+if(inControl){
 var brick = instance_position(x+5,y,obj_break_block);
-
+show_debug_message(brick);
+brick = instance_position(x+35,y,obj_break_block);
 if(brick)
 {
 	with(brick)instance_destroy();
 }
-//right side
-brick = instance_position(x-5,y,obj_break_block);
+//left side
+brick = instance_position(x-35,y,obj_break_block);
+show_debug_message(brick);
 if(brick)
 {
 	with(brick)instance_destroy()
 }
 
 //Handles lifting liftable blocks
+}
