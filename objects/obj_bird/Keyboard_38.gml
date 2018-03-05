@@ -2,5 +2,5 @@
 // You can write your code in this editor
 if(inControl)
 {
-	y = y - 3;
+	y = y - 10;
 }
