@@ -20,4 +20,22 @@ if(brick)
 }
 
 //Handles lifting liftable blocks
+
+if(!lifting){
+		brick = instance_position(x+35,y,obj_lift_block);
+if(brick)
+{
+	
+	brick.liftedBy = self;
+	lifting = true;
+}
+//left side
+brick = instance_position(x-35,y,obj_lift_block);
+show_debug_message(brick);
+if(brick)
+{
+	brick.liftedBy = self;
+	lifting = true;
+}
+}
 }
