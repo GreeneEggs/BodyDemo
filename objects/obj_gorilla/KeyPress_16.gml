@@ -36,6 +36,7 @@ if(brick)
 {
 	brick.liftedBy = self;
 	lifting = true;
+	
 }
 }
 }
