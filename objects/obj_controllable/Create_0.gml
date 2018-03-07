@@ -5,3 +5,4 @@ hsp = 0;
 vsp = 0;
 grav = 0.3;
 walkSpeed = 5;
+facing = 0;

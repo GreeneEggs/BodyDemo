@@ -3,7 +3,7 @@ right = keyboard_check(vk_right);
 
 //Handles gravity for objects in the gameworld
 var move = right - left;
-
+facing = move;
 
 
 if(inControl){
