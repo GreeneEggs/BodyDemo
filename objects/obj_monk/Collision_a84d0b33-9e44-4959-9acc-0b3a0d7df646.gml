@@ -1,7 +1,9 @@
 /// @description Handles capture when in range
 // You can write your code in this editor
-if(keyboard_check(vk_space)and inControl)
+if(keyboard_check(vk_space))
 {
+	
+	if(inControl){
 	inControl = false;
 	currentControl = other;
 	visible = 0;
@@ -10,6 +12,9 @@ if(keyboard_check(vk_space)and inControl)
 		inControl = true;
 	}
 	
-	alarm_set(0,500);
+	alarm_set(0,500);	
+	}
 	
+	
+
 }

@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-jumpHeight = 60;
+jumpHeight = -10;

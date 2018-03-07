@@ -27,7 +27,7 @@ if(brick)
 {
 	
 	brick.liftedBy = self;
-	lifting = true;
+	lifting = brick;
 }
 //left side
 brick = instance_position(x-35,y,obj_lift_block);
@@ -35,8 +35,15 @@ show_debug_message(brick);
 if(brick)
 {
 	brick.liftedBy = self;
-	lifting = true;
+	lifting = brick;
 	
 }
+
+}
+else{
+
+	lifting.liftedBy = 0;
+	lifting.x = x+60;
+	lifting = false;
 }
 }

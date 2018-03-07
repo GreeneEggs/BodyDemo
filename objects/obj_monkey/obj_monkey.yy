@@ -5,16 +5,6 @@
     "name": "obj_monkey",
     "eventList": [
         {
-            "id": "52f69063-4a48-4e59-942a-920e065a67f9",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 16,
-            "eventtype": 9,
-            "m_owner": "bd5e8132-9668-4a6b-9e4c-ec0b8f99e215"
-        },
-        {
             "id": "76f7ca2f-728a-4d6f-a9de-37208abc97b7",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -25,7 +15,7 @@
             "m_owner": "bd5e8132-9668-4a6b-9e4c-ec0b8f99e215"
         },
         {
-            "id": "a3b6ae1e-a3c7-40df-b7bf-d1eba881ba07",
+            "id": "8961db67-2f4f-4152-8714-54c2726dcf33",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

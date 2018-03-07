@@ -1,7 +1,17 @@
-/// @description sets up gravity for this object
+/// @description Insert description here
 // You can write your code in this editor
 
-if(!inControl){
-	x = currentControl.x;
-	y = currentControl.y;
+// Inherit the parent event
+event_inherited();
+
+
+if(keyboard_check(vk_alt)&&!inControl){
+	with(currentControl)
+	{
+	inControl = false;
+	}
+	inControl = true;
+	currentControl = 0;
+	visible = 1;
+	alarm_set(0,-1);
 }
