@@ -6,10 +6,12 @@
 if(inControl){
 
 
-brick = position_meeting(x+((facing)*35),y,obj_break_block);
+brick = instance_nearest(x+((facing)*5),y,obj_break_block);
 if(brick)
 {
+	if(distance_to_object(obj_break_block)<=20){
 	with(brick)instance_destroy();
+	}
 }
 //left side
 
@@ -19,13 +21,14 @@ if(brick)
 if(!lifting){
 
 brick = instance_nearest(x+((facing)*5),y,obj_lift_block);
+if(distance_to_object(obj_lift_block)<=20){
 show_debug_message(brick);
 if(brick)
 {
 	brick.liftedBy = self;
 	lifting = brick;
 	
-}
+}}
 
 }
 else{
