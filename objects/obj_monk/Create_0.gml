@@ -8,3 +8,4 @@ walkSpeed = 5;
 grav = 0.3;
 vsp = 0;
 hsp = 0;
+drownTime = 0;

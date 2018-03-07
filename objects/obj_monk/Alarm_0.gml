@@ -9,3 +9,4 @@ with(currentControl)
 inControl = true;
 currentControl = 0;
 visible = 1;
+y = y -15;
