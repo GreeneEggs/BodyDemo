@@ -6,7 +6,7 @@ vsp = 0;
 grav = 0.3;
 walkSpeed = 1;
 facing = 0;
-
+jumpHeight = -2;
 origin_x = x;
 origin_y = y;
 

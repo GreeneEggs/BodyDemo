@@ -66,6 +66,8 @@ if(enemy_state ==status.hide){
 vsp = vsp + grav;
 //horizonal
 if(place_meeting(x+hsp,y,obj_block)){
+	//
+	vsp = jumpHeight + grav + vsp;
 	while(!place_meeting(x+sign(hsp),y,obj_block)){
 		x = x+sign(hsp);
 	}
