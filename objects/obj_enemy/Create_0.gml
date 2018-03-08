@@ -7,9 +7,12 @@ grav = 0.3;
 walkSpeed = 1;
 facing = 0;
 
-enemy_state = status.hunt;
+origin_x = x;
+origin_y = y;
+
+enemy_state = status.patrol;
 enum status{
-	hunt,
+	patrol,
 	follow,
 	hide
 }
