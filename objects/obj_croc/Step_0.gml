@@ -6,6 +6,7 @@ var move = right - left;
 
 
 
+
 if(inControl){
 	hsp = move * walkSpeed;
 	obj_monk.x = x;
@@ -15,7 +16,9 @@ if(inControl){
 	vsp = swimSpeed;
 }
 }
-else{hsp = 0}
+else{
+	hsp = 0;
+	}
 vsp = vsp + grav;
 
 

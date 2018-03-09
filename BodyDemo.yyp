@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "e24ffb94-df66-47fc-ba32-f73e62b1c24e",
+            "Value": {
+                "id": "e94a9273-1560-4bd1-9194-8f30675eb0f1",
+                "resourcePath": "rooms\\rm_cutscene\\rm_cutscene.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "eb15fa95-9a2b-4477-8fa9-efb25db90483",
             "Value": {
                 "id": "aa506ce1-eac5-4417-8479-b6429f6e9e74",

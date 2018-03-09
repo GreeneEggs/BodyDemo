@@ -16,9 +16,20 @@ if(inControl){
 	vsp = jumpHeight;	
 	
 }
+//Climbing vines
+if(place_meeting(x,y,obj_vine)&&keyboard_check_pressed(vk_shift)){
+	vsp = -4;
 }
-else{hsp = 0}
+
+
+}
+else{hsp = 0;
+	}
 vsp = vsp + grav;
+
+
+
+
 
 //horizonal
 if(place_meeting(x+hsp,y,obj_block)){
