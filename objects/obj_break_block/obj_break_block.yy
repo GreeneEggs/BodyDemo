@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_break_block",
     "eventList": [
-        
+        {
+            "id": "51e1a0d0-5a92-4fcf-8b06-d9a9377d0578",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "d19c042c-0a5d-491f-91c7-ba25aba58a1e"
+        },
+        {
+            "id": "59ba06ab-4884-464a-ac03-6e223bf6d284",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "d19c042c-0a5d-491f-91c7-ba25aba58a1e"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

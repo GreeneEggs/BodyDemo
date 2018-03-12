@@ -18,7 +18,7 @@ if(inControl){
 }
 //Climbing vines
 if(place_meeting(x,y,obj_vine)&&keyboard_check_pressed(vk_shift)){
-	vsp = -4;
+	vsp = -10;
 }
 
 

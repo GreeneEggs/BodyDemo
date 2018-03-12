@@ -6,12 +6,12 @@ move = 0
 //Enemy should change status depending on whats happening
 	//If player is spotted, change status to follow, unless player is gorilla, then hide
 	if(distance_to_object(obj_monk)<=60){
-		
-		if(obj_monk.currentControl.object_index == obj_gorilla){
+		enemy_state = status.follow;
+		if(obj_monk.currentControl!=0){
+			if(obj_monk.currentControl.object_index == obj_gorilla)
 			enemy_state = status.hide;
-		}
-		else{enemy_state = status.follow;}
 		
+		}
 		
 	}
 	
