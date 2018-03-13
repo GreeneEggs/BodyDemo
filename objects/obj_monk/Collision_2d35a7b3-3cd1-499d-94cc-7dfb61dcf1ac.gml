@@ -3,5 +3,6 @@
 
 
 // On collision procceeds to next scene
-
-room_goto(rm_credits);
+if(gameController.end_time == false){
+gameController.end_time = current_time;
+}
