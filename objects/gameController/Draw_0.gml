@@ -19,6 +19,7 @@ with(obj_monk)
 else{
 		draw_text(room_width/2,room_height/2,"LEVEL COMPLETE!");
 		draw_text(40,70,(end_time/1000) );
-		instance_create_layer(room_width/2,(room_height/2) +60,layer,obj_next_level_btn)
+		instance_create_layer(room_width/2,(room_height/2) +60,layer,obj_next_level_btn);
+		instance_create_layer(room_width/2 + 50,(room_height/2) +60,layer,obj_replay_level_btn);
 	}
 	
