@@ -23,7 +23,7 @@ move = 0
 	
 	//Get where the monk is 
 	monkDir = arctan2((obj_monk.y-y),(obj_monk.x-x))* 180 / pi + 180;
-	show_debug_message(monkDir);
+	
 	if (0<monkDir && monkDir<90)move = -1;
 	if (90<monkDir && monkDir<180)move = 1;
 	if (180<monkDir && monkDir<270)move = 1;
@@ -34,7 +34,7 @@ move = 0
 if(enemy_state == status.patrol){
 	
 	originDir = arctan2((origin_y-y),(origin_x-x))* 180 / pi + 180;
-	show_debug_message(originDir);
+	
 	if (0<originDir && originDir<90)move = -1;
 	if (90<originDir && originDir<180)move = 1;
 	if (180<originDir && originDir<270)move = 1;

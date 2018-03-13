@@ -22,7 +22,7 @@ if(!lifting){
 
 brick = instance_nearest(x+((facing)*5),y,obj_lift_block);
 if(distance_to_object(obj_lift_block)<=20){
-show_debug_message(brick);
+
 if(brick)
 {
 	brick.liftedBy = self;
