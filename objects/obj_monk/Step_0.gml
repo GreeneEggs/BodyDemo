@@ -8,6 +8,7 @@ event_inherited();
 if(keyboard_check(vk_alt)&&!inControl){
 	with(currentControl)
 	{
+	alarm_set(2,300);
 	inControl = false;
 	}
 	inControl = true;

@@ -3,6 +3,7 @@
 
 with(currentControl)
 {
+	alarm_set(2,300);
 	inControl = false;
 }
 

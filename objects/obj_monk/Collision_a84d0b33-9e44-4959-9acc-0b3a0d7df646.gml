@@ -6,6 +6,7 @@ if(keyboard_check(vk_space))
 	currentControl = other;
 	with(other)
 	{
+		
 		inControl = true;
 	}
 	alarm_set(0,obj_monk.cap_time);
