@@ -34,3 +34,8 @@ if(keyboard_check(vk_space)&&inControl)
 	}
 	else{ currentControl = 0;}
 }
+
+if(health < 0){
+	health = 0;
+	dead = true;
+}

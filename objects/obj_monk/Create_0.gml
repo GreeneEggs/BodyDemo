@@ -7,3 +7,9 @@ inControl = true;//The player is in control at all times
 currentControl = 0;
 cap_time = 500;
 drownTime = 0;
+dead = false;
+
+enum state {
+damage,normal	
+}
+status = state.normal;
