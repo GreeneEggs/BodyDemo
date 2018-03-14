@@ -17,3 +17,20 @@ if(keyboard_check(vk_alt)&&!inControl){
 	y = y -15;
 	alarm_set(0,-1);
 }
+
+if(keyboard_check(vk_space)&&inControl)
+{
+	currentControl = (nth_object_nearest(x,y,obj_controllable,1));
+	
+	if(distance_to_object(currentControl)<1){
+	inControl = false;
+	visible = 0;
+	with(currentControl)
+	{
+		alarm[2] = -1;
+		inControl = true;
+	}
+	alarm_set(0,obj_monk.cap_time);
+	}
+	else{ currentControl = 0;}
+}
