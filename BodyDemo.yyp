@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "284bd192-4b66-48dc-84c9-9a3cc4d12043",
+            "Value": {
+                "id": "863bd5f3-b27b-4ebc-861d-e11f801e30bc",
+                "resourcePath": "sprites\\spr_death\\spr_death.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2ac6c2a0-d026-4b11-af48-9d2a8b098aee",
             "Value": {
                 "id": "c095bbda-5f80-470c-a3c3-7b54e17dfb42",
@@ -316,6 +324,14 @@
                 "id": "92425d15-e8c3-48ef-8072-be05de76e3b3",
                 "resourcePath": "objects\\gameController\\gameController.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5c0453f8-904a-42fb-b5da-8613eb46e931",
+            "Value": {
+                "id": "707264f9-c530-4ab1-8a42-be135a15ed70",
+                "resourcePath": "sprites\\spr_pause\\spr_pause.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
