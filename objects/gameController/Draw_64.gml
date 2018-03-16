@@ -17,7 +17,7 @@ with(obj_monk)
 	draw_text(40,70,(current_time/1000));
 	if(dead){
 	draw_sprite(spr_death,0,1024/2,768/2);
-	
+
 	instance_create_layer(200,(768/2) +120,layer,obj_back_btn);
 	instance_create_layer(((1024/2) + 200),(768/2) +120,layer,obj_replay_level_btn);
 	}
