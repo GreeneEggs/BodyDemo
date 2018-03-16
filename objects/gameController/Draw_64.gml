@@ -17,9 +17,9 @@ with(obj_monk)
 	draw_text(40,70,(current_time/1000));
 	if(dead){
 	draw_sprite(spr_death,0,1024/2,768/2);
-	draw_text(1024/2,768/2,"GAME OVER!");
-	instance_create_layer(1024/2,(768/2) +60,layer,obj_back_btn);
-	instance_create_layer(1024/2 + 50,(768/2) +60,layer,obj_replay_level_btn);
+	
+	instance_create_layer(200,(768/2) +120,layer,obj_back_btn);
+	instance_create_layer(((1024/2) + 200),(768/2) +120,layer,obj_replay_level_btn);
 	}
 }	
 if(gamePaused){
