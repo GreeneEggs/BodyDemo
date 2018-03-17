@@ -32,7 +32,8 @@
         "6117cd63-58ad-4267-a666-28c15736e29d",
         "79649bcb-b022-4c9f-93bc-f7b2cb4a75ca",
         "c05fde06-4710-4f08-a6e9-ba509e7a776e",
-        "5009985a-005f-4a02-89bb-fbca04733eab"
+        "5009985a-005f-4a02-89bb-fbca04733eab",
+        "83df75dd-c32e-4f55-ace3-ad6bd7365195"
     ],
     "IsDnD": false,
     "layers": [
@@ -50,7 +51,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_3F6D1C2","id": "5009985a-005f-4a02-89bb-fbca04733eab","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3F6D1C2","objId": "59ca83ae-43df-48dd-9668-7456e09eeede","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 96,"y": 128}
+{"name": "inst_3F6D1C2","id": "5009985a-005f-4a02-89bb-fbca04733eab","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3F6D1C2","objId": "59ca83ae-43df-48dd-9668-7456e09eeede","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 96,"y": 128},
+{"name": "inst_4F96779","id": "83df75dd-c32e-4f55-ace3-ad6bd7365195","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4F96779","objId": "a53a35c0-ef0e-4162-b370-cb1165dbd8b8","properties": [{"id": "d42d0c0e-54f6-4c2a-a6ea-4c2f14d7c3f6","modelName": "GMOverriddenProperty","objectId": "a53a35c0-ef0e-4162-b370-cb1165dbd8b8","propertyId": "7402a855-ac0b-493a-8f96-d3e595a135a7","mvc": "1.0","value": "snd_funky"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": -64,"y": 96}
             ],
             "layers": [
 
