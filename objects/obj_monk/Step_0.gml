@@ -16,6 +16,7 @@ if(keyboard_check(vk_alt)&&!inControl){
 	visible = 1;
 	y = y -15;
 	alarm_set(0,-1);
+	audio_stop_sound(snd_timer);
 }
 
 if(keyboard_check(vk_space)&&inControl)
@@ -31,6 +32,7 @@ if(keyboard_check(vk_space)&&inControl)
 		audio_play_sound(capture_sound,0,0);
 		alarm[2] = -1;
 		inControl = true;
+		audio_play_sound(snd_timer,0,1);
 	}
 	alarm_set(0,obj_monk.cap_time);
 	}

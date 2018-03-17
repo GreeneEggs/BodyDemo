@@ -1,8 +1,8 @@
 {
-    "id": "796293e2-0057-4c86-9435-b7c500e1fc23",
+    "id": "a82fcec6-c92b-46f5-8894-a0a2dd16603c",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "sound10",
+    "name": "snd_timer",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
