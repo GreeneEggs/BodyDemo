@@ -4,3 +4,4 @@
 // Inherit the parent event
 event_inherited();
 flight_speed = -10;
+capture_sound = snd_bird;

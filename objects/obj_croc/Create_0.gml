@@ -5,3 +5,4 @@
 event_inherited();
 
 swimSpeed = -5;
+capture_sound = snd_croc;

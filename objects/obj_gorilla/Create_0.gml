@@ -6,3 +6,4 @@ event_inherited();
 
 walkSpeed = 3;
 lifting = false;
+capture_sound = snd_gorilla;

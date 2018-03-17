@@ -1,16 +1,25 @@
 /// @description basic enemy AI all should follow
 
 
-move = 0
+move = 0;
 
 //Enemy should change status depending on whats happening
 	//If player is spotted, change status to follow, unless player is gorilla, then hide
 	if(distance_to_object(obj_monk)<=60){
 		enemy_state = status.follow;
 		if(obj_monk.currentControl!=0){
-			if(obj_monk.currentControl.object_index == obj_gorilla)
+			if(obj_monk.currentControl.object_index == obj_gorilla){
 			enemy_state = status.hide;
-		
+			if(!audio_is_playing(snd_robot_run)){
+				audio_play_sound(snd_robot_run,0,0);	
+			}
+			}
+		}
+		else{
+		if(!audio_is_playing(snd_robot_hunt) and !alerted){
+				audio_play_sound(snd_robot_hunt,0,0);
+				alerted = true;
+			}	
 		}
 		
 	}
@@ -19,6 +28,7 @@ move = 0
 	//If nothing, return to control point
 	else{
 		enemy_state = status.patrol;
+		alerted = false;
 	}
 	
 	//Get where the monk is 

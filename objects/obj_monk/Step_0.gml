@@ -26,7 +26,7 @@ if(keyboard_check(vk_space)&&inControl)
 	inControl = false;
 	visible = 0;
 	with(currentControl)
-	{
+	{	audio_play_sound(capture_sound,0,0);
 		alarm[2] = -1;
 		inControl = true;
 	}

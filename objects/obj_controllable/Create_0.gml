@@ -8,4 +8,5 @@ walkSpeed = 5;
 facing = 0;
 origin_x = x;
 origin_y = y;
+capture_sound = snd_monkey;
 effect_create_above(ef_spark, bbox_left + random(sprite_width), bbox_top + random(sprite_height), choose(0, 1), merge_colour(c_white, c_yellow, random(1)));

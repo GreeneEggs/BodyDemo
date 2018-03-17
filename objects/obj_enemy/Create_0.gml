@@ -9,7 +9,7 @@ facing = 0;
 jumpHeight = -2;
 origin_x = x;
 origin_y = y;
-
+alerted = false;
 enemy_state = status.patrol;
 enum status{
 	patrol,

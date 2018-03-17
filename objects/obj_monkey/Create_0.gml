@@ -5,3 +5,4 @@
 event_inherited();
 
 jumpHeight = -10;
+capture_sound = snd_monkey;
