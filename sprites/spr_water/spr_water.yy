@@ -16,24 +16,24 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "e94416f1-38ac-4c51-9058-33eb39e59778",
+            "id": "e98f43a1-df30-4c98-ac61-612b66adcd89",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "3107d7b4-05c5-4e5b-b2d8-999c5a6ad696",
             "compositeImage": {
-                "id": "d826b37d-f7e8-4571-9098-2006657ea03b",
+                "id": "1241585c-cc4a-48ea-be2a-2bcf740ea386",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "e94416f1-38ac-4c51-9058-33eb39e59778",
+                "FrameId": "e98f43a1-df30-4c98-ac61-612b66adcd89",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "b5898462-aea2-4263-a7ce-14f5dc099209",
+                    "id": "df612a52-21c7-499b-8f39-71f3497d9c15",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "e94416f1-38ac-4c51-9058-33eb39e59778",
-                    "LayerId": "0555558c-4405-465e-ba89-c07c0bd7ca5a"
+                    "FrameId": "e98f43a1-df30-4c98-ac61-612b66adcd89",
+                    "LayerId": "3b305292-30ec-4eab-8533-408d8c2647ee"
                 }
             ]
         }
@@ -43,7 +43,7 @@
     "height": 64,
     "layers": [
         {
-            "id": "0555558c-4405-465e-ba89-c07c0bd7ca5a",
+            "id": "3b305292-30ec-4eab-8533-408d8c2647ee",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "3107d7b4-05c5-4e5b-b2d8-999c5a6ad696",
@@ -54,7 +54,7 @@
             "visible": true
         }
     ],
-    "origin": 4,
+    "origin": 9,
     "originLocked": false,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
@@ -65,6 +65,6 @@
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
     "width": 64,
-    "xorig": 32,
-    "yorig": 32
+    "xorig": -75,
+    "yorig": -93
 }
