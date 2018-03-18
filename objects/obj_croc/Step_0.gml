@@ -8,6 +8,8 @@ var move = right - left;
 
 
 if(inControl){
+	if(keyboard_check(vk_left)) mov_direction=-1;
+	if(keyboard_check(vk_right)) mov_direction=1;
 	hsp = move * walkSpeed;
 	obj_monk.x = x;
 	obj_monk.y = y;
