@@ -14,3 +14,39 @@ else if (global.gamePaused == true && keyboard_check_pressed(vk_pause))
     global.gamePaused = false;
    // sprite_index = pauseButtonSprite;
 }
+
+//Handle buttons if level is complete
+
+if(end_time){
+		var reWidth = 458/2;
+		var reHeight = 94/2;
+	if (device_mouse_check_button(0, mb_left))
+   {
+   if( device_mouse_x_to_gui(0) <((1024/2))){
+	  room_restart();
+   }
+	if(device_mouse_x_to_gui(0) >((1024/2)) ){
+		
+		room_goto_next();
+	}
+   }
+}
+
+
+//Handle buttons if level if dead
+
+if(obj_monk.dead){
+		var reWidth = 458/2;
+		var reHeight = 94/2;
+	if (device_mouse_check_button(0, mb_left))
+   {
+   if( device_mouse_x_to_gui(0) >((1024/2))){
+	  room_restart();
+   }
+	if(device_mouse_x_to_gui(0) <((1024/2)) ){
+		
+		room_goto(rm_mainMenu);
+	}
+   }
+}
+
