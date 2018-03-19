@@ -13,7 +13,7 @@ if(inControl){
 	hsp = move * walkSpeed;
 	obj_monk.x = x;
 	obj_monk.y = y;
-	if(place_meeting(x,y,obj_water_block)&&keyboard_check_pressed(vk_shift)){
+	if(place_meeting(x,y,obj_water_block)&&keyboard_check_pressed(ord("Z"))){
 	
 	vsp = swimSpeed;
 }

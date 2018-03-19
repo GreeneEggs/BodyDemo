@@ -13,13 +13,13 @@ if(inControl){
 	obj_monk.x = x;
 	obj_monk.y = y;
 	
-	if(place_meeting(x,y+1,obj_block)&&keyboard_check_pressed(vk_up)){
+	if(place_meeting(x,y+1,obj_block)&&keyboard_check_pressed(ord("Z"))){
 	
 	vsp = jumpHeight;	
 	
 }
 //Climbing vines
-if(place_meeting(x,y,obj_vine)&&keyboard_check_pressed(vk_up)){
+if(place_meeting(x,y,obj_vine)&&keyboard_check_pressed(ord("Z"))){
 	vsp = -10;
 }
 

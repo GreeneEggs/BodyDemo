@@ -3,7 +3,7 @@
 
 // Inherit the parent event
 
-if(inControl&&keyboard_check_pressed(vk_shift)){
+if(inControl&&keyboard_check_pressed(ord("Z"))){
 vsp = flight_speed;	
 }
 event_inherited();

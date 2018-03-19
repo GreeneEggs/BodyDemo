@@ -5,16 +5,6 @@
     "name": "obj_gorilla",
     "eventList": [
         {
-            "id": "9d99f4ca-6987-4860-b33a-860fa86eeecc",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 16,
-            "eventtype": 9,
-            "m_owner": "3d8b8590-1ac0-42fd-9caa-48ae52a37d88"
-        },
-        {
             "id": "c66559c1-230c-49cf-80af-72997541eb5b",
             "modelName": "GMEvent",
             "mvc": "1.0",
