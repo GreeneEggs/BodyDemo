@@ -26,6 +26,7 @@ with(obj_monk)
 }	
 if(gamePaused){
 	draw_sprite(spr_pause,0,1024/2,768/2);
+	
 }
 }
 else{
