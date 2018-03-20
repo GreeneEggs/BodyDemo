@@ -16,6 +16,12 @@ else if (global.gamePaused == true && keyboard_check_pressed(vk_escape))
     global.gamePaused = false;
 	//sprite_index = pauseButtonSprite;
 }
+// Skip level cheat
+else if (global.gamePaused == true && keyboard_check_pressed(vk_f1)){
+	
+	room_goto_next();
+	
+}
 
 //Handle buttons if level is complete
 
