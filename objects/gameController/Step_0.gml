@@ -1,6 +1,7 @@
 /// @description  Keeps track of the current time amoung other things
 
 //Logic for when level is complete
+
 if (global.gamePaused == false && keyboard_check_pressed(vk_pause))
 {
     instance_deactivate_all(true);
@@ -34,7 +35,7 @@ if(end_time){
 
 
 //Handle buttons if level if dead
-
+if(!gamePaused){
 if(obj_monk.dead){
 		var reWidth = 458/2;
 		var reHeight = 94/2;
@@ -50,3 +51,4 @@ if(obj_monk.dead){
    }
 }
 
+}
