@@ -13,6 +13,10 @@ Space- Possess Animal
 Alt- Depossess Animal
 Z- Use Animal Action
 	Monkey-Jump/Climb Vines
-	Gorilla- Lift/Break Blocks
+	Gorilla- Break Blocks
 	Crocodile- Swim
-	Bird- Fly
+Escape- Pause/Unpaused
+
+CHEAT CODE
+
+While Paused hit F1 to skip to the next level.
